@@ -6,6 +6,7 @@
 
 # YOLO model
 *.pt
+!yolov8n.pt
 
 # Python virtual environment
 .venv/
