@@ -49,8 +49,9 @@ When OpenShorts finishes processing, rendered videos appear in `./output/`:
 
 | Platform | Format Required | Target Account Profile | Monetization Mechanism |
 | :--- | :--- | :--- | :--- |
-| **X (Twitter)** | `16:9 Landscape` | Gaming Brand (e.g. `@ApexClutchGaming`) | X Creator Ad-Revenue (Impressions/Replies) |
-| **YouTube Shorts** | `9:16 Vertical` | Gaming Shorts Channel | Shorts Fund / AdSense + Bio links |
+| **US Facebook Pages** | `16:9` Feed & `9:16` Reels | US Gaming Theme Page | **Facebook Performance Bonus** ($1,000–$3,000/mo) |
+| **Twitter (X)** | `16:9 Landscape` | Gaming Brand (e.g. `@ApexClutchGaming`) | **X Creator Ad-Revenue** (US Impression RPM $10-$25/M) |
+| **YouTube Shorts** | `9:16 Vertical` | Gaming Shorts Channel | **Shorts AdSense** (US 10x CPM) + Bio Links |
 | **Instagram Reels**| `9:16 Vertical` | Theme Page | Affiliate Bio Links + Mobile Game Sponsorships |
 | **TikTok** | `9:16 Vertical` | TikTok Creator Profile | TikTok Creator Rewards Program + Clipper Bounties |
 

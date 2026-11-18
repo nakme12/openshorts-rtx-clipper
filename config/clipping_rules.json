@@ -11,6 +11,16 @@
       "resolution": "1920x1080",
       "description": "Landscape mode for Twitter/X timeline posts"
     },
+    "facebook_page": {
+      "ratio": "16:9",
+      "resolution": "1920x1080",
+      "description": "Landscape mode for US Facebook Page feed posts & in-stream ads"
+    },
+    "facebook_reels": {
+      "ratio": "9:16",
+      "resolution": "1080x1920",
+      "description": "Vertical full screen for Facebook Performance Bonus"
+    },
     "youtube_shorts": {
       "ratio": "9:16",
       "resolution": "1080x1920",
