@@ -141,6 +141,17 @@ python scripts/scheduler.py
 
 ---
 
+## 📱 Auto-Posting & Account Safety
+
+Before enabling automated publishing, read the complete guide:
+👉 **[Read the Auto-Posting & Anti-Ban Safety Guide](./docs/AUTO_POSTING_GUIDE.md)**
+
+* **Avoid Shadowbans**: Learn why raw API scrapers get flagged and how to warm up new accounts.
+* **The 7-Day Warmup**: How to safely transition from manual to scheduled posts.
+* **Semi-Auto Draft Mode**: The 0% ban-risk method used by top clipping agencies.
+
+---
+
 ## 🛠️ Project Structure
 
 ```
