@@ -45,6 +45,11 @@ if (-not (Test-Path ".env")) {
 Copy-Item .env engine/.env -Force
 Copy-Item docker-compose.override.yml engine/docker-compose.override.yml -Force
 
+# Run Rule Injector
+if (Test-Path "scripts/patch_engine.py") {
+    python scripts/patch_engine.py
+}
+
 # 6. Apply Remotion Fix
 if (Test-Path "engine/render-service") {
     Write-Host "🔧 Applying Remotion renderer package lock fix..." -ForegroundColor Yellow

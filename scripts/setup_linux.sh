@@ -47,6 +47,11 @@ fi
 cp .env engine/.env
 cp docker-compose.override.yml engine/docker-compose.override.yml
 
+# Run Rule Injector
+if [ -f "scripts/patch_engine.py" ]; then
+    python3 scripts/patch_engine.py
+fi
+
 # 6. Apply Remotion Fix
 if [ -d "engine/render-service" ]; then
     echo "🔧 Applying Remotion renderer package lock fix..."
