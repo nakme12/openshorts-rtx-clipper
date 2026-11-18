@@ -162,6 +162,7 @@ Everything in this repository is modular, clean, and linked together:
 | **[AI Agent & Dev Runbook](./docs/AGENT_RUNBOOK.md)** | Step-by-step commands, execution sequences, and error fixes for AI agents. |
 | **[Auto-Posting & Safety Guide](./docs/AUTO_POSTING_GUIDE.md)** | Anti-ban rules, 7-day warmup, and the 1-tap mobile draft workflow. |
 | **[Multi-Game Niche Playbook](./docs/NICHE_PLAYBOOK.md)** | Multi-game strategy (GTA + PUBG + Shooters), weekly schedule, and hooks. |
+| **[Sources & Destinations](./docs/SOURCES_AND_DESTINATIONS.md)** | Exact verified channels to download from and upload platform matrix. |
 
 ---
 
