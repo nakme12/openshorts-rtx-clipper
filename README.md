@@ -152,6 +152,19 @@ Before enabling automated publishing, read the complete guide:
 
 ---
 
+## 📚 Documentation Index
+
+Everything in this repository is modular, clean, and linked together:
+
+| Document | Purpose |
+| :--- | :--- |
+| **[Architecture & Data Flow](./docs/ARCHITECTURE.md)** | Full system diagram, component linkages, and 6GB VRAM budget. |
+| **[AI Agent & Dev Runbook](./docs/AGENT_RUNBOOK.md)** | Step-by-step commands, execution sequences, and error fixes for AI agents. |
+| **[Auto-Posting & Safety Guide](./docs/AUTO_POSTING_GUIDE.md)** | Anti-ban rules, 7-day warmup, and the 1-tap mobile draft workflow. |
+| **[Multi-Game Niche Playbook](./docs/NICHE_PLAYBOOK.md)** | Multi-game strategy (GTA + PUBG + Shooters), weekly schedule, and hooks. |
+
+---
+
 ## 🛠️ Project Structure
 
 ```
