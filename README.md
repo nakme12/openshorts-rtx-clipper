@@ -121,6 +121,26 @@ Long Video (.mp4)
 
 ---
 
+## ⚙️ Custom Pipeline & Posting Rules
+
+All rules are pre-configured in [`config/clipping_rules.json`](./config/clipping_rules.json) and `.env`:
+
+| Rule | Setting | Purpose |
+| :--- | :--- | :--- |
+| **Duration Limit** | `15s` Min – `45s` Max | Keeps retention high; eliminates boring fluff. |
+| **Aspect Ratio for X** | `16:9` Landscape (1920x1080) | Perfect fit for Twitter/X timeline cards. |
+| **Aspect Ratio for Shorts/Reels** | `9:16` Vertical (1080x1920) | Full screen vertical for TikTok, YouTube Shorts, Reels. |
+| **Captions** | **Always 1 Line** | Max 1 line on screen, 3-word animated bouncy text. |
+| **Daily Cadence** | `2 - 3` Clips per Day | Consistent algorithm push without tripping spam filters. |
+| **Posting Gap** | **At least 2 Hours** | Spaces out posts across morning, evening, and night windows. |
+
+### Run the Schedule Preview:
+```bash
+python scripts/scheduler.py
+```
+
+---
+
 ## 🛠️ Project Structure
 
 ```

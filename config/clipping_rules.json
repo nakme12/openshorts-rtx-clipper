@@ -1,0 +1,52 @@
+{
+  "duration_rules": {
+    "min_seconds": 15,
+    "max_seconds": 45,
+    "optimal_seconds": 30,
+    "description": "High-retention range for viral algorithms (TikTok/Reels/Shorts drop retention past 45s)"
+  },
+  "aspect_ratios": {
+    "x_twitter": {
+      "ratio": "16:9",
+      "resolution": "1920x1080",
+      "description": "Landscape mode for Twitter/X timeline posts"
+    },
+    "youtube_shorts": {
+      "ratio": "9:16",
+      "resolution": "1080x1920",
+      "description": "Vertical full screen"
+    },
+    "instagram_reels": {
+      "ratio": "9:16",
+      "resolution": "1080x1920",
+      "description": "Vertical full screen"
+    },
+    "tiktok": {
+      "ratio": "9:16",
+      "resolution": "1080x1920",
+      "description": "Vertical full screen"
+    }
+  },
+  "subtitles": {
+    "max_lines": 1,
+    "words_per_batch": 3,
+    "font": "THEBOLDFONT",
+    "font_size": 72,
+    "primary_color": "#FFFFFF",
+    "highlight_color": "#FFD700",
+    "outline_color": "#000000",
+    "outline_width": 4,
+    "animation": "bounce",
+    "position": "center_lower_third"
+  },
+  "publishing_schedule": {
+    "clips_per_day": 3,
+    "min_gap_hours": 2,
+    "preferred_slots_ist": [
+      "13:00",
+      "17:30",
+      "21:30"
+    ],
+    "description": "At least 2-3 clips per day spaced by at least 2 hours to avoid spam filters and catch peak engagement windows"
+  }
+}
