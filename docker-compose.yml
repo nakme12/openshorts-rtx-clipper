@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    image: mutonby/openshorts-backend:latest
+    container_name: openshorts-backend
+    restart: unless-stopped
+    ports:
+      - "5175:5175"
+    env_file:
+      - .env
+    volumes:
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+      - ./.cache:/root/.cache
+      - ./models:/app/models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu, video]
+
+  render-service:
+    image: mutonby/openshorts-renderer:latest
+    container_name: openshorts-renderer
+    restart: unless-stopped
+    volumes:
+      - ./output:/app/output
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu, video]

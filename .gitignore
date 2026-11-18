@@ -1,0 +1,31 @@
+# Python & Node
+__pycache__/
+*.py[cod]
+node_modules/
+.npm
+
+# OpenShorts Storage
+output/
+uploads/
+.cache/
+models/
+*.pt
+*.onnx
+
+# Environment & Secret Keys
+.env
+*.env.local
+*.pem
+*.key
+
+# Videos & Large Media
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+
+# OS & Docker
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,33 @@
+{
+  "gaming_hooks": [
+    "Rockstar just officially confirmed this?! 😱",
+    "Nobody noticed this crazy detail in GTA 6...",
+    "Wait until you see what happens at the end 💀",
+    "This is why everyone is talking about GTA 6...",
+    "Bro really thought he could get away with this 😂",
+    "3 things you 100% missed in the latest gameplay leak!",
+    "This streamer had the funniest reaction to GTA 6...",
+    "Only 1% of players know this hidden trick!"
+  ],
+  "hashtag_bundles": {
+    "gta6": "#gta6 #gta #gaming #rockstargames #gtavicecity #gamingshorts #gta6leaks #fyp",
+    "streamer_clips": "#streamer #twitchclips #kaicenat #ishowspeed #kickstreaming #funnyclips #gamingmoments"
+  },
+  "monetization_sources": [
+    {
+      "type": "Clipper Bounties",
+      "platforms": ["Whop.com", "Clip.cash"],
+      "rate": "$0.50 - $1.50 per 1,000 verified views"
+    },
+    {
+      "type": "Affiliate Bio Links",
+      "products": ["Gaming VPN (Nord/Surfshark)", "Gaming Gear (Amazon Associates)"],
+      "conversion": "Bio link landing page"
+    },
+    {
+      "type": "Channel Sponsorships",
+      "requirement": "50k+ followers on TikTok/Instagram",
+      "rate": "$50 - $200 per sponsored shoutout"
+    }
+  ]
+}
