@@ -124,7 +124,8 @@ ENV LD_LIBRARY_PATH=/opt/venv/lib/python3.11/site-packages/nvidia/cublas/lib:/op
 ENV NVIDIA_DRIVER_CAPABILITIES=compute,video,utility
 
 # Latest yt-dlp (nightly — it updates frequently) plus its helper plugin.
-RUN pip install --upgrade --pre --no-cache-dir "yt-dlp[default]" bgutil-ytdlp-pot-provider
+RUN pip install --upgrade --pre --no-cache-dir "yt-dlp[default]" bgutil-ytdlp-pot-provider \
+    && pip install --no-cache-dir nvidia-cublas-cu12 nvidia-cudnn-cu12
 
 # Copy application code
 COPY . .

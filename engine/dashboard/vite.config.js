@@ -43,4 +43,4 @@ export default defineConfig({
       '/render': { target: renderer, changeOrigin: true },
     }
   }
-})
+});

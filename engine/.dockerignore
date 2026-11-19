@@ -28,6 +28,8 @@ dashboard/node_modules/
 *.swo
 
 # Video files (will be mounted via volume)
+uploads/
+output/
 *.mp4
 *.avi
 *.mov

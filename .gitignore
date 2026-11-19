@@ -14,7 +14,6 @@ models/
 *.onnx
 
 # Environment & Secret Keys
-.env
 *.env.local
 *.pem
 *.key
@@ -30,3 +29,4 @@ models/
 .DS_Store
 Thumbs.db
 *.log
+config.bat

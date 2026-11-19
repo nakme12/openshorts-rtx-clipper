@@ -41,4 +41,4 @@ export default defineConfig([
     files: ['vite.config.js', 'vite-plugin-seo.js', 'seo/**/*.js'],
     languageOptions: { globals: { ...globals.node } },
   },
-])
+]);
